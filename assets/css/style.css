@@ -72,20 +72,15 @@ img {
 	padding: 20px 20px 20px 0px;
 }
 
-#bio {
-	float: left;
+.bio {
 	font-weight: lighter;
 	padding: 20px 20px 20px 0px;
-}
-
-#more{
-	float: left;
-	padding: 20px 20px 20px 0px;
+	line-height: 130%;
 }
 
 aside {
 	position: relative;
-	top: 80px;
+	top: 100px;
 	float: right;
 	padding: 20px;
 	width: 270px;
