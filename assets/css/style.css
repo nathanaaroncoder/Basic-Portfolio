@@ -10,7 +10,7 @@ header {
 	position: fixed;
 	width: 960px;
 	background-color: #ffffff;
-	border-bottom: 2px;
+	border-bottom: 1px;
 	border-color: #4aaaa5;
 	border-style: solid;
 	z-index: 3;
@@ -99,6 +99,27 @@ aside {
 	padding: 10px;
 }
 
+.porticon {
+	height: 100px;
+	width: 150px;
+	padding: 20px 20px 20px 0px;
+}
+
+.portfolio {
+	position: relative;
+}
+
+article {
+	position: absolute;
+	text-align: center;
+	bottom: 30px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	z-index: 2;
+	padding: 10px;
+
+}
+
 footer {
 	width: 960px;
 	padding: 20px;
@@ -107,4 +128,8 @@ footer {
 	bottom: 0;
 	background-color: gray;
 	color: #BEBEBE;
+	border-top: 5px;
+	border-color: #4aaaa5;
+	border-style: solid;
+
 }
